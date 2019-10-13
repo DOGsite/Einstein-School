@@ -194,7 +194,7 @@ flex-direction: row-reverse ;
          /* /* text-align: center;  */
          align-items: center;   
 }
-@media screen and (max-width: 2000px){
+@media screen and (max-width: 720px){
     .result{
         /* flex-direction: row ;  */
             text-shadow: 13px 13px 10px #000000 ;
