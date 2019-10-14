@@ -1,3 +1,6 @@
+*{
+    transition: all 0.2s;
+}
 html,body{
     background: #D1E2E1;
 border-radius: 10px;
@@ -47,14 +50,17 @@ justify-content: center; */
     font-size: 40px;
     text-shadow: 10px 10px 15px;
 /* float: right; */
-
+text-decoration: none;
+color: #000;
     justify-content:flex-end; 
     align-items: center;  
     text-align: center;
     position: absolute;
     right: 50px;
 }
-
+.timenow:hover{
+  color: #57D027;  
+}
 
 /* 
 .text:hover{ /* При навидении елемент виден */

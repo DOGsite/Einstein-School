@@ -127,6 +127,10 @@ function MathOpt(a,b,op){
 			var noProb = document.querySelector('.noProb');
 			   noProb.innerHTML = ("Со времинем ты научишся считать в уме!");
 		   }
+		if(good>error){
+			var noProb = document.querySelector('.noProb');
+			   noProb.innerHTML = ("Так держать!");
+		   }
 	// alert (bpr + "%"); 
 	// console.log('Good job:' + good);
 	// console.log('Bad job:'  + error);
