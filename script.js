@@ -1,4 +1,4 @@
-let p = document.querySelector('.timenow');
+let p = document.querySelector('#timenow');
 setInterval(function(){
 	let now = new Date();
 	let hours = now.getHours();
@@ -13,16 +13,22 @@ setInterval(function(){
 			  if(seconds<10){
 				 seconds = "0" + seconds;
 				  }
+
+
 		p.innerHTML =   hours + ":" + minutes + ":" + seconds;
+		
 	
-},1000)
+},0001)
+
+//  alert("Здраствуйте!Вы зашли на сайт тренировки мозга и улутшения навыков счета в уме. Хорошой тренировки!");
 
 window.onload = function() {
     document.querySelector('.start').onclick = function (){
         training();
     }
 }
- alert("Здраствуйте!Вы зашли на сайт тренировки мозга и улутшения навыков счета в уме. Хорошой тренировки!");
+
+
 	
 
 
@@ -153,24 +159,7 @@ function MathOpt(a,b,op){
 		   
 		  
 		}
-	// Таймер до конца суток
-// let block = document.querySelector('.time');
-// setInterval(function(){
-// 	let now = new Date();
-// 	let hours = 23 - now.getHours();
-// 	let minutes = 59 - now.getMinutes();
-// 	let seconds = 60 - now.getSeconds();
-// 	if(hours<10){
-//    hours = "0" + hours;
-// 	}
-// 	if(minutes<10){
-// 		minutes = "0" + minutes;
-// 		 }
-// 		 if(seconds<10){
-// 			seconds = "0" + seconds;
-// 			 }
-// 	block.innerHTML =   hours + ":" + minutes + ":" + seconds;
 	
-// },1000)
-// Впемя сейчас
+
+
 
